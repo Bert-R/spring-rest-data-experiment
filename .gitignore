@@ -48,12 +48,11 @@ test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
 
-# Yona-specific entries go below
 # Exclude the HSQL database
-/YonaDB.lck
-/YonaDB.log
-/YonaDB.properties
-/YonaDB.script
+/TheDatabase.lck
+/TheDatabase.log
+/TheDatabase.properties
+/TheDatabase.script
 
 # Exclude the data folder, as that contains the runtime data
 /data
